@@ -1,0 +1,478 @@
+/* ============
+NAVBAR RESPONSIVE START
+============= */
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  #nav label {
+    display: block;
+    background: transparent;
+    border: 0;
+    padding-top: 20px;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+  }
+
+  #nav input:checked ~ .menu {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu_wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .sideinfo a {
+    display: none;
+  }
+
+  .shape1 {
+    top: 315px;
+    left: 25%;
+    display: none;
+  }
+
+  /* ============
+NAVBAR RESPONSIVE END
+============= */
+
+  /* ============
+BANNER RESPONSIVE START
+============= */
+
+  #banner {
+    padding-top: 254px;
+    padding-bottom: 50px;
+  }
+
+  .banner_img2 {
+    position: absolute;
+    display: none;
+  }
+
+  .animation5 {
+    left: 125px;
+  }
+
+  .article h2 {
+    padding: 75px 0 15px 0;
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+
+  .article p {
+    padding: 0 20px 20px 20px;
+  }
+
+  .article .contact_us {
+    display: none;
+  }
+
+  .animation3 {
+    display: none;
+  }
+
+  .animation5 {
+    display: none;
+  }
+
+  .article .show_case {
+    display: none;
+  }
+
+  /* ============
+BANNER RESPONSIVE END
+============= */
+
+  /* ============
+SERVICE RESPONSIVE START
+============= */
+
+  #service .photo img {
+    display: none;
+  }
+
+  #service .items {
+    transform: translateY(-1%);
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  #service .item {
+    height: 280px;
+    width: 300px;
+  }
+
+  #service .item h2 {
+    font-size: 20px;
+  }
+
+  /* ============
+SERVICE RESPONSIVE END
+
+
+============= */
+  /* ============
+VONNECT RESPONSIVE START
+============= */
+
+  #connect article h2 {
+    font-size: 28px;
+    padding: 20px 0 20px 0;
+  }
+
+  .connect_items {
+    flex-direction: column;
+  }
+
+  .connect_item1 {
+    height: 300px;
+    width: 100%;
+  }
+
+  .connect_item1 img {
+    width: 100%;
+  }
+
+  .connect_item2 {
+    width: 100%;
+    height: 300px;
+  }
+
+  .connect_item2 h4 {
+    padding: 20px 10px 20px 10px;
+    font-size: 18px;
+  }
+
+  .connect_item2 p {
+    padding: 0 10px 20px 10px;
+    font-size: 16px;
+  }
+
+  .item-button {
+    padding: 0 0 0 10px;
+  }
+
+  /* ============
+CONNECT RESPONSIVE END
+============= */
+
+  /* ============
+COUNTING RESPONSIVE START
+============= */
+  .wrapper_div {
+    padding: 20px 0 20px 0;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .top_article h2 {
+    padding: 10px 10px 28px 0;
+    font-size: 18px;
+    width: 320px;
+  }
+
+  .top_article p {
+    padding: 50 10px 5px 10px;
+    font-size: 16px;
+    width: 320px;
+  }
+
+  .skill_middel_part {
+    flex-direction: column;
+  }
+
+  .skill_middel_part .middel_info1 {
+    height: 300px;
+    width: 100%;
+  }
+
+  .skill_middel_part .middel_info1 h3 {
+    padding: 10px 30px 10px 30px;
+  }
+
+  .skill_middel_part .middel_info1 a {
+    padding: 10px 30px 10px 30px;
+  }
+
+  .skill_middel_part .middel_info2 {
+    height: 300px;
+    width: 100%;
+  }
+
+  .skill_middel_part .middel_info2 h3 {
+    padding: 10px 30px 10px 30px;
+  }
+
+  .skill_middel_part .middel_info2 a {
+    padding: 10px 30px 10px 30px;
+  }
+
+  .skill_last_part {
+    display: none;
+  }
+
+  /* ============
+COUNTING RESPONSIVE END
+============= */
+  /* ============
+WORK SECTION RESPONSIVE START
+============= */
+
+  #works {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #works .img2 {
+    left: 15px;
+    bottom: 40%;
+  }
+
+  #works .item_wrapper {
+    flex-direction: column;
+  }
+
+  #works .item1 {
+    width: 100%;
+    flex-direction: column;
+    padding: 0 0 0 0;
+  }
+  #works .item1 .top1 {
+    height: 200px;
+    width: 200px;
+    margin: 20px auto;
+  }
+
+  #works .item2 {
+    width: 100%;
+    padding: 10px;
+  }
+
+  #works .item2 h3 {
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  #works .item2 p {
+    font-size: 16px;
+    line-height: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+  }
+
+  /* ============
+WORK SECTION RESPONSIVE END
+============= */
+
+  /* ============
+ORGINIZATIONS SECTION RESPONSIVE START
+============= */
+
+  #orginizations {
+    height: auto;
+  }
+
+  #orginizations p {
+    font-size: 20px;
+    padding: 30px 0 10px;
+  }
+
+  #orginizations .boxs {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 50px;
+  }
+
+  /* ============
+ORGINIZATIONS  SECTION RESPONSIVE END
+============= */
+
+  /* ============
+CUSTOMER  SECTION RESPONSIVE start
+============= */
+  #customer_say {
+    height: auto;
+  }
+
+  #customer_say .parts_wrapper {
+    flex-direction: column;
+  }
+
+  #customer_say .part1 {
+    padding-top: 40px;
+    width: 100%;
+    text-align: center;
+  }
+
+  #customer_say .part1 h1 {
+    font-size: 30px;
+  }
+
+  #customer_say .boxs {
+    display: none;
+  }
+
+  #customer_say .part1 p {
+    margin-top: 20px;
+  }
+
+  #customer_say .name {
+    flex-direction: column-reverse;
+  }
+
+  #customer_say .part2 img {
+    height: 300px;
+    width: 300px;
+    margin-left: 10px;
+  }
+  #customer_say .part2 {
+    padding-top: 8px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+
+  /* ============
+CUSTOMER  SECTION RESPONSIVE END
+============= */
+
+  /* ============
+PROJECT  SECTION RESPONSIVE START
+============= */
+
+  #get_project {
+    height: auto;
+  }
+
+  #get_project .getrope {
+    display: none;
+  }
+
+  #get_project .top {
+    flex-direction: column;
+  }
+
+  #get_project .top p {
+    padding: 10px 0 10px 10px;
+  }
+
+  #get_project .top h1 {
+    font-size: 36px;
+    padding: 10px 0 10px 10px;
+  }
+
+  #get_project .button {
+    padding: 10px 0 10px 10px;
+  }
+
+  #get_project .buttom p {
+    padding: 10px 10px 50px 10px;
+  }
+
+  /* ============
+PROJECT  SECTION RESPONSIVE END
+============= */
+
+  /* ============
+FOOTER  SECTION RESPONSIVE START
+============= */
+
+  #support {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  #support .main {
+    flex-direction: column-reverse;
+  }
+
+  #support .main .demo {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+  }
+  #support .main .demo img {
+  }
+
+  #support .main .demo p {
+    margin-top: 25px;
+    line-height: 130%;
+  }
+
+  #support .main .features {
+    width: 100%;
+    text-align: center;
+  }
+
+  #support .main .features h3 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+
+  #support .main .features ul li {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+
+  #support .main .products {
+    width: 100%;
+    text-align: center;
+  }
+
+  #support .main .products h3 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+
+  #support .main .products ul li {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+
+  #support .main .products p {
+    display: none;
+  }
+
+  #support .main .support {
+    width: 100%;
+    text-align: center;
+  }
+
+  #support .main .support ul li {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+
+  #support .main .support p {
+    display: none;
+  }
+
+  /* ============
+FOOTER  SECTION RESPONSIVE END
+============= */
+}
